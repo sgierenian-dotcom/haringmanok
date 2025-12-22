@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Haring Manok Restaurant</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #fff8f0;
+    color: #4a2c0a;
+  }
+  header {
+    background-color: #ff2810;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+  }
+  header img {
+    width: 100px;
+    height: auto;
+  }
+  header h1 {
+    margin: 10px 0 5px;
+    font-size: 2.5rem;
+  }
+  header p {
+    font-style: italic;
+    font-size: 1.2rem;
+  }
+  main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  section {
+    margin-bottom: 40px;
+  }
+  h2 {
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  ul.menu-list {
+    list-style: none;
+    padding: 0;
+  }
+  ul.menu-list li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px dotted #e74c3c;
+  }
+  ul.menu-list li span.price {
+    font-weight: bold;
+  }
+  footer {
+    background-color: #e74c3c;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 0.9rem;
+  }
+  .btn {
+    background-color: #d64b3b;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 15px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .btn:hover {
+    background-color: #a13627;
+  }
+  .contact-info p {
+    margin: 6px 0;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <img src="cheerful_rooster.png" alt="Haring Manok Logo" />
+  <h1>Haring Manok</h1>
+  <p>The King of Chicken Delights</p>
+</header>
+
+<main>
+  <section>
+    <h2>About Us</h2>
+    <p>Welcome to Haring Manok, where we bring you the finest chicken dishes prepared with passion and fresh ingredients. Experience authentic flavors that make every meal memorable.</p>
+  </section>
+
+  <section>
+    <h2>Menu</h2>
+    
+    <h3>Signature Chicken Dishes</h3>
+    <ul class="menu-list">
+      <li><span>Haring Manok Special Roast</span> <span class="price">₱250</span></li>
+      <li><span>Spicy Grilled Chicken</span> <span class="price">₱240</span></li>
+      <li><span>Sweet and Savory Chicken BBQ</span> <span class="price">₱230</span></li>
+      <li><span>Crispy Fried Chicken</span> <span class="price">₱220</span></li>
+    </ul>
+
+    <h3>Rice and Sides</h3>
+    <ul class="menu-list">
+      <li><span>Garlic Fried Rice</span> <span class="price">₱60</span></li>
+      <li><span>Steamed Jasmine Rice</span> <span class="price">₱40</span></li>
+      <li><span>Mashed Potatoes</span> <span class="price">₱80</span></li>
+      <li><span>Grilled Vegetables</span> <span class="price">₱90</span></li>
+    </ul>
+
+    <h3>Soups and Salads</h3>
+    <ul class="menu-list">
+      <li><span>Chicken Tinola Soup</span> <span class="price">₱150</span></li>
+      <li><span>Garden Fresh Salad</span> <span class="price">₱130</span></li>
+      <li><span>Mango and Tomato Salad</span> <span class="price">₱140</span></li>
+    </ul>
+
+    <h3>Drinks</h3>
+    <ul class="menu-list">
+      <li><span>Fresh Lemonade</span> <span class="price">₱70</span></li>
+      <li><span>Iced Tea</span> <span class="price">₱60</span></li>
+      <li><span>Bottled Water</span> <span class="price">₱40</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+      <p>📍 123 Haring St., Manila, Philippines</p>
+      <p>📞 +63 912 345 6789</p>
+      <p>✉️ info@haringmanok.com</p>
+      <p>⏰ Mon - Sun: 10:00 AM - 9:00 PM</p>
+    </div>
+  </section>
+
+  <section>
+    <a href="#" class="btn">Order Online</a>
+    <a href="#" class="btn">Reserve a Table</a>
+  </section>
+</main>
+
+<footer>
+  &copy; 2024 Haring Manok. All Rights Reserved.
+</footer>
+
+</body>
+</html>
